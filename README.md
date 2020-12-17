@@ -31,19 +31,19 @@
     <img src="README_images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Binary Image classification via QML</h3>
+  <h3 align="center">Multi channel Image classification via QML</h3>
 
   <p align="center">
-    A Quantum Machine Learning model for binary class binary-image classification.
+    A QML extended model for binary multi channel image classification.
     <br />
-    <a href="https://github.com/HectorIGH/Binary-Image-classification-via-QML"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/HectorIGH/Multi-channel-Image-classification-via-QML"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/HectorIGH/Binary-Image-classification-via-QML">View Code</a>
+    <a href="https://github.com/HectorIGH/Multi-channel-Image-classification-via-QML">View Code</a>
     ·
-    <a href="https://github.com/HectorIGH/Binary-Image-classification-via-QML/issues">Report Bug</a>
+    <a href="https://github.com/HectorIGH/Multi-channel-Image-classification-via-QML/issues">Report Bug</a>
     ·
-    <a href="https://github.com/HectorIGH/Binary-Image-classification-via-QML/issues">Request Feature</a>
+    <a href="https://github.com/HectorIGH/Multi-channel-Image-classification-via-QML/issues">Request Feature</a>
   </p>
 </p>
 
@@ -82,11 +82,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://hectorigh.github.io/)
 
-A Quantum Machine Learning model for binary class binary-image classification.
+The base binary model is preserved, but allong with the training procedure are extended and modified, in order to generalize to a new model capable of process images of arbitrary number of channels. In this case RBG images are used.
 
 ### Built With
 
-The models are built using Python for overall coding, Qiskit for quantum processing, OpenCV for image preprocessing and Matplotlib and Seaborn for plotting and presentation. Everything is setup to run either on the simulator or a real quantum computer, although its default is the simulator.
+The model is built in Python and Qiskit for quantum processing, OpenCV for image preprocessing and Matplotlib and Seaborn for graphical representation. Default to simulating, but able to upload to a real quantum machine.
 
 * [Python](https://www.python.org/)
 * [Qiskit](https://qiskit.org/)
@@ -130,14 +130,14 @@ This is an example of how to list things you need to use the software and how to
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://github.com/HectorIGH/Binary-Image-classification-via-QML/issues)_
+_For more examples, please refer to the [Documentation](https://github.com/HectorIGH/Multi-channel-Image-classification-via-QML/issues)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/HectorIGH/Binary-Image-classification-via-QML/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/HectorIGH/Multi-channel-Image-classification-via-QML/issues) for a list of proposed features (and known issues).
 
 
 
@@ -166,7 +166,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Héctor Iván García Hernández - [@HectorIGarciaH](https://twitter.com/HectorIGarciaH) - hi.garcia.hdez@gmail.com
 
-Project Link: [https://github.com/HectorIGH/Binary-Image-classification-via-QML](https://github.com/HectorIGH/Binary-Image-classification-via-QML)
+Project Link: [https://github.com/HectorIGH/Multi-channel-Image-classification-via-QML](https://github.com/HectorIGH/Multi-channel-Image-classification-via-QML)
 
 
 
@@ -193,15 +193,15 @@ Project Link: [https://github.com/HectorIGH/Binary-Image-classification-via-QML]
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/HectorIGH/Binary-Image-classification-via-QML.svg?style=for-the-badge
-[contributors-url]: https://github.com/HectorIGH/Binary-Image-classification-via-QML/graphs/contributors
+[contributors-url]: https://github.com/HectorIGH/Multi-channel-Image-classification-via-QML/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/HectorIGH/Binary-Image-classification-via-QML.svg?style=for-the-badge
-[forks-url]: https://github.com/HectorIGH/Binary-Image-classification-via-QML/network/members
+[forks-url]: https://github.com/HectorIGH/Multi-channel-Image-classification-via-QML/network/members
 [stars-shield]: https://img.shields.io/github/stars/HectorIGH/Binary-Image-classification-via-QML.svg?style=for-the-badge
-[stars-url]: https://github.com/HectorIGH/Binary-Image-classification-via-QML/stargazers
+[stars-url]: https://github.com/HectorIGH/Multi-channel-Image-classification-via-QML/stargazers
 [issues-shield]: https://img.shields.io/github/issues/HectorIGH/Binary-Image-classification-via-QML.svg?style=for-the-badge
-[issues-url]: https://github.com/HectorIGH/Binary-Image-classification-via-QML/issues
+[issues-url]: https://github.com/HectorIGH/Multi-channel-Image-classification-via-QML/issues
 [license-shield]: https://img.shields.io/github/license/HectorIGH/Binary-Image-classification-via-QML.svg?style=for-the-badge
-[license-url]: https://github.com/HectorIGH/Binary-Image-classification-via-QML/blob/master/LICENSE.txt
+[license-url]: https://github.com/HectorIGH/Multi-channel-Image-classification-via-QML/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/hector-ivan-garcia-hernandez
-[product-screenshot]: README_images/digits_full_weight.svg
+[product-screenshot]: README_images/3_channel_weights.svg
